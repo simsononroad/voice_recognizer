@@ -1,0 +1,1 @@
+Kiadott parancsok: ['hey turn on', 'hey turn on the effect', 'hey stop']

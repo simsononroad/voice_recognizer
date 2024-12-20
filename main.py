@@ -46,8 +46,12 @@ def main():
                         engine.say("A fények bekapcsolva.")
                         engine.runAndWait()
                     elif text == f"{PREFIXUM} turn on the effect":
-                        wled_aurora()
+                        wled_aurora(255)
                         engine.say("A fények effekt módba kapcsolva.")
+                        engine.runAndWait()
+                    elif text == f"{PREFIXUM} turn on the night effect":
+                        wled_aurora(10)
+                        engine.say("Az éjszakai effekt bekapcsolva.")
                         engine.runAndWait()
                     elif text == f"{PREFIXUM} turn off the effect":
                         wled_on(255)

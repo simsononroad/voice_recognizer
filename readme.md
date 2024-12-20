@@ -1,14 +1,5 @@
 <p align="center">
   <img src="images/wled_logo_akemi.png">
-  <br>
-  <p>Hello</p>
-  <input placeholder="Mi a neved?">
-  <button>Szias</button>
-  <style>
-    p{
-      color: red;
-    }
-  </style>
 </p>
 
 # Magyar

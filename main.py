@@ -26,14 +26,14 @@ def main():
                 audio = recognizer.listen(mic)
                 
                 # Alapértelmezett Google Speech API használata
-                text = recognizer.recognize_google_cloud(audio)
+                text = recognizer.recognize_google(audio)
                 text = text.lower()
                 system("clear")
                 print("======================")
                 print(f"Felismerve: {text}")
                 print("======================")
                 kiadott_parancsok.append(text)
-                if PREFIXUM not in text or LEVEL_2_PREFIXUM not in text:
+                if PREFIXUM not in text:
                     print(f"Nem használtad a '{PREFIXUM}' prefixumot")
                 else:
 
